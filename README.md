@@ -20,7 +20,12 @@ Built on the [deezer-python](https://github.com/browniebroke/deezer-python) api 
 
 Edit `main.py` as needed!
 
-**First:** download the playlist data:
+**First:** Install the deezer api wrapper package dependency `pip install deezer-python`
+
+<br/>
+<br/>
+
+**Second:** download the playlist data:
 
 ```
 import getPlaylistData
@@ -38,7 +43,7 @@ Note: the only data saved is `songID, title, artistName`
 <br/>
 <br/>
 
-**Second:** compare the playlist data
+**Third:** compare the playlist data
 
 Comparing one file against another
 
@@ -65,4 +70,4 @@ comparePlaylists.massCompare("songs_I_think_I_have", ignoreFiles)
 
 Example output of running `massCompare()`
 
-<img src="Playlist_compare_output.png" width=500 title="Playlist Compare Output">
+<img src="Playlist_massCompare_output.png" width=500 title="Playlist Compare Output">
