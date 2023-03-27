@@ -16,7 +16,7 @@ client = deezer.Client()
 
 
 ### Download the specified users playlist data
-def getPlayListData(publicUserID):
+def downloadPlayListData(publicUserID):
     print()
 
     # Get specified user object

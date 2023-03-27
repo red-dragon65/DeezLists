@@ -28,7 +28,7 @@ def findDuplicates(playlistFileOne, playlistFileTwo):
                 # Print matching data
                 print("PlayList One: " + playlistFileOne)
                 print("PlayList Two: " + playlistFileTwo)
-                print("Duplicate found! " + formattedItemOne[1] + " -> " + formattedItemTwo[1])
+                print("Duplicate found!" + formattedItemOne[1] + " ->" + formattedItemTwo[1])
                 print()
 
 
