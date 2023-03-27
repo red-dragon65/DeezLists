@@ -70,4 +70,4 @@ comparePlaylists.massCompare("songs_I_think_I_have", ignoreFiles)
 
 Example output of running `massCompare()`
 
-<img src="Playlist_massCompare_output.png" width=500 title="Playlist Compare Output">
+<img src="Playlist_massCompare_output.png" width=550 title="Playlist Compare Output">
